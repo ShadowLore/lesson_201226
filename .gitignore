@@ -1,3 +1,5 @@
+/.idea
+
 ------------------------------------------------------------------------
 -- dqMinMag.decTest -- decQuad minnummag                              --
 -- Copyright (c) IBM Corporation, 1981, 2008.  All rights reserved.   --
@@ -38,3 +40,4 @@ dqmng006 minmag  -1  -2  -> -1
 dqmng007 minmag  -1  -1  -> -1
 dqmng008 minmag  -1   0  ->  0
 /data/fairy_tail.txt
+/data/kpk.kss45.ru_timetable.txt
