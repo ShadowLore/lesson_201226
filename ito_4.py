@@ -12,6 +12,8 @@ print(f'слов в тексте {text_items_cnt}')
 text_items_counter = {}
 for el in text_items:
    el = el.lower().strip(',.')
+   if not el:
+       continue
    if el not in text_items_counter:
          text_items_counter[el] = 0
          text_items_counter[el] += 1
